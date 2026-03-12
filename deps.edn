@@ -1,4 +1,3 @@
 {:paths ["src"]
- :deps {lambdaisland/regal {:mvn/version "0.1.175"}
-        io.github.roterski/doorbell {:git/url "https://github.com/roterski/doorbell"
-                                     :git/sha "8649d43f121a70474180f7cdaded25458e7895be"}}}
+ :deps {lambdaisland/regal    {:mvn/version "0.1.175"}
+        com.roterski/doorbell {:mvn/version "0.1.0"}}}

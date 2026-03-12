@@ -1,5 +1,4 @@
 {:paths ["src"]
- :deps {lambdaisland/regal {:mvn/version "0.1.175"}
-        io.github.roterski/doorbell {:git/url "https://github.com/roterski/doorbell"
-                                     :git/sha "5692240f67a7cb530927ffca21e516e802675dec"}}
+ :deps {lambdaisland/regal    {:mvn/version "0.1.175"}
+        com.roterski/doorbell {:mvn/version "0.1.0"}}
  :bbin/bin {neil-tui {:main-opts ["-m" "roterski.neil-tui.core"]}}}
