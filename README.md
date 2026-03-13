@@ -11,7 +11,10 @@ Then, if there is more than one `deps.edn` file in the file tree of the current 
 
 ## Installation
 
-Prerequisite: [babashka/bbin](https://github.com/babashka/bbin)
+Prerequisites:
+- [babashka](https://github.com/babashka/babashka) (>= 1.12.215)
+- [babashka/neil](https://github.com/babashka/neil)
+- [babashka/bbin](https://github.com/babashka/bbin)
 ````
 bbin install io.github.roterski/neil-tui
 ````
